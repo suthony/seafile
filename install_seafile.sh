@@ -29,9 +29,9 @@ function install_sea() {
 	mv seafile-pro-server_6.1.4_x86-64.tar.gz ./installed
 	mv seafile-pro-server_6.1.4_x86-64.tar.gz seafile-server
 	#安装依赖环境
-	yum -y install python-setuptools python-imaging python-ldap MySQL-python python-memcached python-urllib3
+	yum -y install python-setuptools python-imaging python-ldap MySQL-python python-memcached python-urllib3 jre
 	#进行安装
-	cd seafile-server && ./setup-seafile.sh
+	cd seafile-pro-server-6.1.4 && ./setup-seafile.sh
 	
 	#启动服务
 	./seafile.sh start &&  ./seahub.sh start
