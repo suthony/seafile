@@ -15,4 +15,5 @@ wget https://raw.githubusercontent.com/Mr-Chatwin/seafile/master/install_seafile
 chmod +x install_seafile.sh && ./install_seafile.sh
 ```
 
-详细说明请访问：[https://www.xiaoz.me/archives/8480](https://www.xiaoz.me/archives/8480)
+详细说明请访问：[https://www.xiaoz.me/archives/8480](https://www.xiaoz.me/archives/8480
+fork自小Z博客  更改安装seafile-pro-server_6.1.4。
